@@ -6,6 +6,7 @@ Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://web.wt.net/~billw/gkrellmss/gkrellmss-%{version}.tar.gz
+# Source0-md5:	457a85c28f049ef0787c842b5494ece0
 URL:		http://web.wt.net/~billw/gkrellmss/gkrellmss.html
 BuildRequires:	fftw-devel
 BuildRequires:	gkrellm-devel >= 2.0
