@@ -1,12 +1,12 @@
 Summary:	Sound Scope plugin for gkrellm
 Summary(pl):	Plugin Sound Scope dla gkrellm
 Name:		gkrellm-sound-scope
-Version:	2.3
-Release:	1
+Version:	2.5
+Release:	0.1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://web.wt.net/~billw/gkrellmss/gkrellmss-%{version}.tar.gz
-# Source0-md5:	457a85c28f049ef0787c842b5494ece0
+# Source0-md5:	adf18105f8f11ce55f5fae920d350516
 URL:		http://web.wt.net/~billw/gkrellmss/gkrellmss.html
 BuildRequires:	fftw-devel
 BuildRequires:	gkrellm-devel >= 2.0
@@ -29,7 +29,8 @@ analizatora widma.
 %setup -q -n gkrellmss-%{version}
 
 %build
-%{__make} CFLAGS="%{rpmcflags}"
+%{__make} \
+	CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
