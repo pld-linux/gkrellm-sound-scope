@@ -14,7 +14,7 @@ BuildRequires:	fftw-devel
 BuildRequires:	gkrellm-devel >= 2.0
 BuildRequires:	gtk+2-devel >= 1:2.0
 BuildRequires:	glib2-devel >= 2.0
-BuildRequires:	pkgconfig >= 0.15.0
+BuildRequires:	pkgconfig >= 1:0.15.0
 Requires:	gkrellm >= 2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
