@@ -12,7 +12,7 @@ BuildRequires:	alsa-lib-devel >= 1.0.5
 BuildRequires:	esound-devel >= 0.2.35
 BuildRequires:	fftw-devel
 BuildRequires:	gkrellm-devel >= 2.0
-BuildRequires:	gtk+2-devel >= 2.0
+BuildRequires:	gtk+2-devel >= 1:2.0
 BuildRequires:	glib2-devel >= 2.0
 BuildRequires:	pkgconfig >= 0.15.0
 Requires:	gkrellm >= 2.0
