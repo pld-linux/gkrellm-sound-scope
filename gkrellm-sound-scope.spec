@@ -1,12 +1,12 @@
 Summary:	Sound Scope plugin for gkrellm
 Summary(pl):	Plugin Sound Scope dla gkrellm
 Name:		gkrellm-sound-scope
-Version:	2.0
+Version:	2.3
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
-Source0:	http://web.wt.net/~billw/gkrellmss-%{version}.tar.gz
-URL:		http://web.wt.net/~billw/gkrellmss.html
+Source0:	http://web.wt.net/~billw/gkrellmss/gkrellmss-%{version}.tar.gz
+URL:		http://web.wt.net/~billw/gkrellmss/gkrellmss.html
 BuildRequires:	fftw-devel
 BuildRequires:	gkrellm-devel >= 2.0
 BuildRequires:	gtk+2-devel >= 2.0
