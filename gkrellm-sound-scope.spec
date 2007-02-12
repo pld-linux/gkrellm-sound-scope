@@ -1,5 +1,5 @@
 Summary:	Sound Scope plugin for gkrellm
-Summary(pl):	Plugin Sound Scope dla gkrellm
+Summary(pl.UTF-8):   Plugin Sound Scope dla gkrellm
 Name:		gkrellm-sound-scope
 Version:	2.6
 Release:	0.1
@@ -23,9 +23,9 @@ GKrellM Sound Scope is a plugin for GKrellM that has a VU meter and a
 sound chart that can toggle between an oscilloscope and spectrum
 analyzer mode.
 
-%description -l pl
-GKrellM Sound Scope jest pluginem dla GKrellM, który posiada miernik
-VU oraz potrafi wy¶wietliæ wykres d¼wiêku w trybie oscyloskopu oraz
+%description -l pl.UTF-8
+GKrellM Sound Scope jest pluginem dla GKrellM, ktÃ³ry posiada miernik
+VU oraz potrafi wyÅ›wietliÄ‡ wykres dÅºwiÄ™ku w trybie oscyloskopu oraz
 analizatora widma.
 
 %prep
