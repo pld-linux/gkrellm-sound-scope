@@ -1,5 +1,5 @@
 Summary:	Sound Scope plugin for gkrellm
-Summary(pl.UTF-8):   Plugin Sound Scope dla gkrellm
+Summary(pl.UTF-8):	Plugin Sound Scope dla gkrellm
 Name:		gkrellm-sound-scope
 Version:	2.6
 Release:	0.1
